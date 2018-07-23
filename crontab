@@ -1,0 +1,2 @@
+# m h  dom mon dow   command
+* * * * * /usr/bin/flock -xn /home/svetlana/genpls.lock -c /home/svetlana/genpls.pl >> /home/svetlana/genpls.log 2>&1
